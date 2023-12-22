@@ -1,0 +1,11 @@
+.abtctn{
+    height: 85% ;
+    width: 100%;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    gap: 30px;
+    margin: 50px;
+    margin-left: 50px;
+    
+}
