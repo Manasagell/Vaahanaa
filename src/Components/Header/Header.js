@@ -1,9 +1,17 @@
-import React from 'react';
+import React ,{useState} from 'react';
 import Navbar from '../Navbar/Navbar';
 import {NavLink} from "react-router-dom";
 import classes from "./Header.module.css";
 import logo from '../../Images/Logo.jpeg';
-const Header=() =>{
+import { FaBars } from 'react-icons/fa'; 
+
+const Header = () => {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
     return (
      <div className={classes.header}> 
      <div className={classes.header_image}>
@@ -11,7 +19,18 @@ const Header=() =>{
           <img src={logo} alt="logo" className={classes.logo} />
         </NavLink> 
      </div>
-        <div className={classes.header_content}><Navbar/></div>
+        <div className={classes.header_content}>
+        <button className={classes.mobileMenuButton} onClick={toggleMobileMenu}>
+          <FaBars/>
+        </button><Navbar/>
+        {isMobileMenuOpen && (
+          <div className={classes.mobileMenu}>
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/about">About</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
+            <NavLink to="/services">Services</NavLink>
+          </div>)}</div>
+        
         </div>
     );
   }

@@ -33,6 +33,12 @@ const Navbar=()=>{
             Contact
           </NavLink>
         </li>
+
+        <li>
+          <NavLink to="/PrivacyPolicies" className={classes.navbarlink}>
+            PrivacyPolicies
+          </NavLink>
+        </li>
       </ul>
     </div>
   );

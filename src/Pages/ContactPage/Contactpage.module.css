@@ -1,0 +1,55 @@
+.ContactContainer{
+    height: 100%;
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    padding: 10px 50px;
+    background-color: #f1d19e;
+
+}
+.CHeader{
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Cform {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    border-radius: 8px;
+   
+  }
+  
+  form {
+    display: grid;
+    grid-gap: 15px;
+    
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+ @media only screen and (max-width: 600px) {
+    .ContactContainer {
+      padding: 10px; /* Adjust padding for smaller screens */
+    }
+  }
