@@ -1,13 +1,4 @@
-.abtctn{
-   height: 100%;
-    display: flex;
-    flex-direction: column ;
-    align-items: center;
-    gap: 30px;
-   background-color: #f1d19e;
-   padding: 50px;
-   line-height: 25px;
-}
+
 p{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 30px;

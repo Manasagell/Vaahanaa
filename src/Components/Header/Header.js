@@ -23,13 +23,7 @@ const Header = () => {
         <button className={classes.mobileMenuButton} onClick={toggleMobileMenu}>
           <FaBars/>
         </button><Navbar/>
-        {isMobileMenuOpen && (
-          <div className={classes.mobileMenu}>
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/about">About</NavLink>
-            <NavLink to="/contact">Contact</NavLink>
-            <NavLink to="/services">Services</NavLink>
-          </div>)}</div>
+        </div>
         
         </div>
     );

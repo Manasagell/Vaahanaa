@@ -1,35 +1,35 @@
 import React, { useState } from 'react';
 
 import classes from './Servicespage.module.css'
-
+import '../mediaquery.css'
 
 
 const Services = () => {
   
   return (
-    <div className={classes.servicesctn}>
-      <div><h3>General Service</h3>
-      <p>This isn't your standard regular service. Whether your vehicle needs conventional, high mileage,
-         synthetic blend or full synthetic oil, vaahanaa general service is a comprehensive preventive maintenance to check, change, inspect, flush, 
+    <div className="servicesctn">
+      <div><h2>General Service</h2><br></br>
+      <p>Vaahanaa's general service transcends the ordinary, offering a range of options tailored to your vehicle's specific needs. Whether it's conventional, high mileage, synthetic blend, or full synthetic oil, we have you covered.
          fill and clean essential systems and components of your vehicle. </p>
-        <p>vaahanaa partner engineers go over a visual checklist to diagnose potential problems and plan any upcoming manufacturer recommended maintenance. </p>
+       <br></br> <p>Our comprehensive preventive maintenance is designed to go beyond the surface, checking, changing, inspecting, flushing, filling, and cleaning essential systems and components of your vehicle.</p>
+       <br></br> <p>We believe in proactive care, ensuring that your vehicle not only runs smoothly today but is also prepared for the journeys ahead.ed to go beyond the surface, checking, changing, inspecting, flushing, filling, and cleaning essential systems and components of your vehicle.</p>
+       <br></br> <p>Experience the difference with Vaahanaa's general service – a commitment to excellence that goes beyond the basics, providing your vehicle with the care it deserves.</p>
+
         </div>
-        <div><h3>Health Checkup</h3>
-      <p>A thorough check-up of your vehicle on the spot by our Smart service engineers to provide a clear and detailed report regarding the present condition of your Bike. The report includes - status, durability, reliability and lifespan forecast of every major component.
-        We do assessment of around 30 major checkpoints in a bike to ensure very comprehensive health report.</p>
+        <div><h3>Health Checkup</h3><br></br>
+      <p>Vaahanaa takes vehicle care to the next level with our on-the-spot thorough check-up conducted by our SSE - Smart service engineers.</p><br></br>
+     <p> Our dedicated team provides a clear and detailed report, offering valuable insights into the present condition of your bike.</p><br></br>
+     <p> The comprehensive report covers crucial aspects such as the status, durability, reliability, and even a lifespan forecast for every major component of your bike.</p>
+     <br></br>
+     <p> Our dedicated team provides a clear and At Vaahanaa, we prioritize transparency and precision, empowering you with the knowledge needed to make informed decisions about the maintenance and well-being of your two-wheeled companion.</p>
         </div>
-         <div> <h3>Breakdown</h3>
-         <p>In case of break down vehicle owners has the option to select the nearest best available engineer or ask their regular engineer to look at the vehicle.</p> </div>
-         <div> <h3> Second opinion </h3>
-          <p>Majority of the vehicle owners do not share the details of the detachable products in their vehicle. Example – Engine; batter etc., vaahanaa helps the vehicle owners registered with us to store such important data. 
-            Vehicle owners can choose this option when the engineers opt for batter replacement; service status of the vehicle etc., our trained engineers will conduct a detailed study and give report.</p></div>
-            <div><h3>Polishing</h3>
-            <p>Polish can help to extend the life of the bike's paint or finish, and it can also improve the bike's appearance. Our engineers suggest or directly you may select the polish option for your vehicle.</p></div>
-            <div><h3>Replacement</h3>
-            <p>We offer genuine and easy access to the spare parts. Our centers provide you all the necessary parts: brake pads, tyres, chains, cables and gears at minimal cost. </p>
-         </div>
-         
-    </div>
+         <div> <h3>Breakdown</h3><br></br>
+         <p>Vaahanaa understands the urgency and stress that comes with a breakdown, which is why we offer vehicle owners the flexibility to choose the best available engineer nearest to their location.</p> 
+         <p>In the event of a breakdown, you have the option to select from our network of skilled and reliable engineers who are ready to assist you promptly</p> <br></br>
+          <p>Alternatively, if you have a regular engineer you trust, Vaahanaa allows you to request their assistance, ensuring continuity and a familiar touch in handling your vehicle issues.</p><br></br>
+           <p>This personalized choice empowers vehicle owners, offering them control and convenience during unexpected breakdown situations.</p>
+ </div>
+   </div>
   );
 };
 

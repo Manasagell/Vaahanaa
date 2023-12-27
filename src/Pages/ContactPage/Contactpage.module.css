@@ -1,12 +1,4 @@
-.ContactContainer{
-    height: 100%;
-     display: flex;
-     flex-direction: column;
-    justify-content: center;
-    padding: 10px 50px;
-    background-color: #f1d19e;
 
-}
 .CHeader{
     height: 12vh;
     display: flex;

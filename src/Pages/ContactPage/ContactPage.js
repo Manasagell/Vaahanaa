@@ -1,8 +1,10 @@
 import React from 'react';
 import classes from './Contactpage.module.css'
+import '../mediaquery.css'
+
 const Contact=() =>{
     return (
-      <div className={classes.ContactContainer}>
+      <div className='ContactContainer'>
         <div className={classes.CHeader}>
           <h1>Feel Free to Contact Us</h1> 
         </div>

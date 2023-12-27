@@ -1,23 +1,25 @@
 .header{
-    height: 25%;
+    height: 25vh;
     width: 100vw;
     display: flex;
     flex-direction: row;
     position:relative;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
     color: #fff;
+   
 }
 .header_image{
     height: 100%;
-    width: 12%;
+    width: 15vw;
+    padding: 10px;
+    background-color: transparent;
 }
 .header_content{
   
     height: 100%;
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     
    
 }  
@@ -48,8 +50,7 @@
     top: 70px;
     left: 0;
     width: 100%;
-    background-color: #333;
-    color: #fff;
+   
     text-align: center;
     z-index: 1;
   }
