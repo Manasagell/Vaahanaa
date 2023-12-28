@@ -28,8 +28,9 @@
 }
 
 .navbarlink:hover {
-    color: rgb(17, 29, 53);
+    color: rgb(235, 93, 93);
     transform: translateX(-10px);
     text-decoration: underline ;
     text-underline-offset: 6px ;
+    
   }

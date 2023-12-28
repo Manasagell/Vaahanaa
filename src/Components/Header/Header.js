@@ -2,7 +2,7 @@ import React ,{useState} from 'react';
 import Navbar from '../Navbar/Navbar';
 import {NavLink} from "react-router-dom";
 import classes from "./Header.module.css";
-import logo from '../../Images/Logo.jpeg';
+import logo from '../../Images/Logo.png';
 import { FaBars } from 'react-icons/fa'; 
 
 const Header = () => {
