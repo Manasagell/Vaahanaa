@@ -4,7 +4,7 @@ import '../mediaquery.css'
 const About = () => {
   return (
     <div className="abtctn">
-      <h2>About Us</h2>
+      <h2>ABOUT US</h2>
       
 <p>Vaahanaa stands as a comprehensive aggregator within the realms of AUTOTECH and EVTECH.</p>
 <p>AUTOTECH - Under Autotech, we seamlessly connect street-smart vehicle mechanics with owners, creating a direct link that enhances the efficiency of automotive services.</p>

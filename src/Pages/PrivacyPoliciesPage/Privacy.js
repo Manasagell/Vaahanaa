@@ -5,7 +5,7 @@ const PrivacyPolicies = () => {
   return (
     <div className="tncctn">
       <div>
-      <h1 className={classes.header}>Privacy Policies</h1><br></br>
+      <h1 className={classes.header}>PRIVACY POLICIES</h1><br></br>
       <div>
         <p>This Privacy Policy (“Privacy Policy”) describes how TRIBN Software Private Limited (“the Company” or “We” or Us”) collects, uses, discloses, and protects Personal Information of individuals that the Company 
             collects in connection with the Company's services.
