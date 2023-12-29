@@ -35,7 +35,7 @@ const Navbar=()=>{
         </li>
 
         <li>
-          <NavLink to="/PrivacyPolicies" className={classes.navbarlink}>
+          <NavLink to="/PrivacyPolicy" className={classes.navbarlink}>
             PrivacyPolicies
           </NavLink>
         </li>
