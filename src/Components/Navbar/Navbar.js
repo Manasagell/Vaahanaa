@@ -36,7 +36,7 @@ const Navbar=()=>{
 
         <li>
           <NavLink to="/PrivacyPolicies" className={classes.navbarlink}>
-            PrivacyPolicies
+            PrivacyPolicy
           </NavLink>
         </li>
       </ul>
